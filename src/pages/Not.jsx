@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Not = () => {
-  return (
-    <div>Not</div>
-  )
-}
+	return <div>Not</div>;
+};
 
-export default Not
+export default Not;
