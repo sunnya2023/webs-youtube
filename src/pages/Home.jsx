@@ -1,6 +1,6 @@
 import React from "react";
 import Main from "../components/section/Main";
-import Today from "../components/contents/Developer";
+import Today from "../components/contents/Today";
 import Developer from "../components/contents/Webd";
 import Webd from "../components/contents/Developer";
 import Website from "../components/contents/Website";
