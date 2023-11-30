@@ -7,7 +7,7 @@ const Webd = () => {
 			title="웹디자인 기능사"
 			description="웹디자인 기능사 튜토리얼 강의입니다."
 		>
-			Webd
+			Webd...
 		</Main>
 	);
 };
