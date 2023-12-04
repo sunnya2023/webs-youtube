@@ -3,6 +3,8 @@ import Main from "../components/section/Main";
 import Today from "../components/contents/Today";
 import Developer from "../components/contents/Developer";
 import VideoSlider from "../components/video/VideoSlider";
+import { todayText } from "../data/today";
+import { developerText } from "../data/developer";
 import { webdText } from "../data/webd";
 import { websiteText } from "../data/website";
 import { gsapText } from "../data/gsap";
@@ -15,8 +17,12 @@ const Home = () => {
 			title="웹스토리보이 유튜브 채널"
 			description="웹스트리보이 유튜브 채널에 오신것을 환영합니다.."
 		>
-			<Today />
-			<Developer />
+			<Today videos={todayText} id="today" />
+			<Developer
+				videos={developerText}
+				title="😪 추천 개발자를 소개합니다."
+				id="developer"
+			/>
 			<VideoSlider
 				videos={webdText}
 				title="😮 웹디자인기능사 준비는 이걸로!"
